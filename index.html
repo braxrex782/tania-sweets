@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tania Sweets | Fresas, Mini Donas &amp; Crepas Artesanales a Domicilio</title>
+  <meta name="description" content="Tania Sweets: El antojo que mereces, directo a tu puerta. Fresas con crema ultra cremosas, mini donas calientitas y crepas artesanales con entrega local. &iexcl;Pide f&aacute;cil por WhatsApp!">
+  <meta name="theme-color" content="#FF6B8B">
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tania Sweets | El antojo que mereces, directo a tu puerta">
+  <meta property="og:description" content="Fresas con crema, crepas y mini donas preparadas al momento y con entrega en nuestra zona local. &iexcl;Haz tu pedido por WhatsApp!">
+  <meta property="og:image" content="logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png">
+
+  <!-- Google Fonts: Outfit (Titulares) y Plus Jakarta Sans (Lectura) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" id="announcement-bar">
+    <div class="container announcement-content">
+      <span class="status-indicator"></span>
+      <span class="announcement-text"><strong>&iexcl;Estamos tomando pedidos hoy!</strong> Entregas r&aacute;pidas en zona local v&iacute;a WhatsApp</span>
+      <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20%C2%BFEst%C3%A1n%20disponibles%20para%20entregas%20hoy?" target="_blank" rel="noopener noreferrer" class="announcement-link" id="announcement-cta">
+        Pedir ahora &rarr;
+      </a>
+    </div>
+  </aside>
+
+  <!-- Sticky Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="#hero" class="brand-identity" id="brand-logo-link" aria-label="Inicio Tania Sweets">
+        <div class="logo-wrapper">
+          <img src="logo.png" alt="Logotipo oficial de Tania Sweets" class="brand-logo" width="48" height="48">
+        </div>
+        <div class="brand-naming">
+          <span class="brand-title">Tania Sweets</span>
+          <span class="brand-subtitle">Fresas, Mini Donas &amp; M&aacute;s</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navegaci&oacute;n principal">
+        <ul class="nav-links">
+          <li><a href="#menu" class="nav-link">Men&uacute; Dulce</a></li>
+          <li><a href="#delivery-info" class="nav-link">Zonas de Entrega</a></li>
+          <li><a href="#como-pedir" class="nav-link">&iquest;C&oacute;mo pedir?</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20Quiero%20hacer%20un%20pedido%20a%20domicilio." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-whatsapp-header" 
+           id="nav-whatsapp-btn"
+           aria-label="Abrir WhatsApp para pedir">
+          <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          <span>55 6196 5408</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-background-glow glow-pink" aria-hidden="true"></div>
+      <div class="hero-background-glow glow-purple" aria-hidden="true"></div>
+      
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-icon">&#127827;</span>
+            <span class="badge-text">Reposter&iacute;a &amp; Antojos Artesanales</span>
+          </div>
+
+          <h1 class="hero-title">
+            Tania Sweets: <span class="gradient-text">El antojo que mereces,</span> directo a tu puerta
+          </h1>
+
+          <p class="hero-subtitle">
+            Fresas con crema, crepas y mini donas preparadas al momento y con entrega en nuestra zona local.
+          </p>
+
+          <div class="hero-cta-wrapper">
+            <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20%C2%A1Quiero%20pedir%20mi%20antojo%20ahora!%20%F0%9F%8D%93%F0%9F%8D%A9" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-whatsapp-hero" 
+               id="hero-main-cta">
+              <span class="btn-pulse" aria-hidden="true"></span>
+              <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="26" height="26" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              <span class="btn-text">&iexcl;Pide tu Antojo Ahora!</span>
+            </a>
+            <span class="hero-cta-caption">&#9889; Respuesta inmediata por WhatsApp</span>
+          </div>
+
+          <!-- Trust Highlights -->
+          <div class="hero-features-strip">
+            <div class="feature-item">
+              <span class="feature-icon">&#129374;</span>
+              <span class="feature-label">Hechas al momento</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">&#128757;</span>
+              <span class="feature-label">Entrega local</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">&#128172;</span>
+              <span class="feature-label">Pedido f&aacute;cil y directo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-stack">
+            <div class="hero-badge-floating floating-left">
+              <span class="f-badge-emoji">&#10024;</span>
+              <div>
+                <strong>Reci&eacute;n Hecho</strong>
+                <small>100% Artesanal</small>
+              </div>
+            </div>
+
+            <div class="hero-badge-floating floating-right">
+              <span class="f-badge-emoji">&#127827;</span>
+              <div>
+                <strong>Favorito Local</strong>
+                <small>Fresas &amp; Crema</small>
+              </div>
+            </div>
+
+            <div class="main-hero-card">
+              <img src="fresas.jpg" alt="Fresas con crema especialidad real Tania Sweets" class="hero-img" width="420" height="420" fetchpriority="high">
+              <div class="hero-card-footer">
+                <span class="h-tag">La consentida de todos</span>
+                <span class="h-price">Desde $60</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section (Grid 3 cols desktop, 1 col mobile) -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">CAT&Aacute;LOGO EXCLUSIVO</span>
+          <h2 class="section-title">Elige tu Antojo Favorito</h2>
+          <p class="section-subtitle">
+            Ingredientes de primera calidad, porciones generosas y combinaciones que alegran tu d&iacute;a.
+          </p>
+        </header>
+
+        <div class="menu-grid">
+          
+          <!-- CARD 1: Crepas -->
+          <article class="product-card" id="card-crepas">
+            <div class="card-media">
+              <img src="crepa.jpg" alt="Foto real de Crepa artesanal con Philadelphia, fruta fresca y chocolate" class="product-img" loading="lazy" width="400" height="300">
+              <span class="card-badge card-badge-gold">&#11088; Favorito Dulce</span>
+              <div class="card-price-pill" id="price-crepas">$60</div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="product-title">Crepas Artesanales</h3>
+                <span class="product-pricing" id="crepas-dynamic-price">$60</span>
+              </div>
+
+              <p class="product-desc">
+                Crepas preparadas al momento con ingredientes frescos. Incluyen 1 topping a elegir.
+              </p>
+
+              <!-- Opciones / Sabores -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">1</span> SELECCIONA TU COMBINACI&Oacute;N:
+                </span>
+                <div class="options-pills" role="radiogroup" aria-label="Opciones de Crepa">
+                  <button type="button" class="option-pill active" data-product="crepas" data-type="flavor" data-value="Con Philadelphia y (fresa o pl&aacute;tano)">
+                    Con Philadelphia y (fresa o pl&aacute;tano)
+                  </button>
+                  <button type="button" class="option-pill" data-product="crepas" data-type="flavor" data-value="Con Philadelphia y mermelada de fresa">
+                    Con Philadelphia y mermelada de fresa
+                  </button>
+                  <button type="button" class="option-pill" data-product="crepas" data-type="flavor" data-value="Con Nutella y (fresa o pl&aacute;tano)">
+                    Con Nutella y (fresa o pl&aacute;tano)
+                  </button>
+                </div>
+              </div>
+
+              <!-- Toppings -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">2</span> Elige 1 topping incluido:
+                </span>
+                <div class="toppings-tags" role="radiogroup" aria-label="Toppings de Crepa">
+                  <button type="button" class="topping-tag active" data-product="crepas" data-type="topping" data-value="Coco rallado">
+                    &#129381; Coco rallado
+                  </button>
+                  <button type="button" class="topping-tag" data-product="crepas" data-type="topping" data-value="Chispas de chocolate">
+                    &#127851; Chispas de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="crepas" data-type="topping" data-value="Granillo de capuchino">
+                    &#9749; Granillo de capuchino
+                  </button>
+                  <button type="button" class="topping-tag" data-product="crepas" data-type="topping" data-value="Granillo de chocolate">
+                    &#127851; Granillo de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="crepas" data-type="topping" data-value="Granillo de colores">
+                    &#127752; Granillo de colores
+                  </button>
+                </div>
+                <!-- Casilla interactiva Topping Extra (+$7 pesos) -->
+                <div class="extra-topping-box" id="extra-box-crepas">
+                  <label class="extra-topping-toggle" for="extra-toggle-crepas">
+                    <input type="checkbox" id="extra-toggle-crepas" class="extra-topping-checkbox" data-product="crepas">
+                    <span class="custom-checkbox-ui" aria-hidden="true"></span>
+                    <span class="extra-toggle-label">&#191;Agregar Topping Extra? <strong class="extra-price-tag">(+$7 pesos)</strong></span>
+                  </label>
+
+                  <!-- Selector del segundo topping -->
+                  <div class="extra-toppings-panel" id="extra-panel-crepas" style="display: none;">
+                    <span class="extra-panel-title">Elige tu segundo topping (+ $7):</span>
+                    <div class="extra-tags" role="radiogroup" aria-label="Topping Extra de Crepa">
+                      <button type="button" class="extra-topping-btn" data-product="crepas" data-value="Coco rallado">&#129381; Coco rallado</button>
+                      <button type="button" class="extra-topping-btn active" data-product="crepas" data-value="Chispas de chocolate">&#127851; Chispas de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="crepas" data-value="Granillo de capuchino">&#9749; Granillo de capuchino</button>
+                      <button type="button" class="extra-topping-btn" data-product="crepas" data-value="Granillo de chocolate">&#127851; Granillo de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="crepas" data-value="Granillo de colores">&#127752; Granillo de colores</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-action-wrap">
+                <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20Quiero%20pedir%20una%20Crepa%20artesanal%20($60):%0A%E2%80%A2%20Sabor:%20Con%20Philadelphia%20y%20(fresa%20o%20pl%C3%A1tano)%0A%E2%80%A2%20Topping:%20Coco%20rallado" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="btn btn-whatsapp-card" 
+                   id="btn-order-crepas"
+                   data-base-url="https://wa.me/525561965408">
+                  <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  <span>Pedir Crepa por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: Mini Donas -->
+          <article class="product-card" id="card-donitas">
+            <div class="card-media">
+              <img src="donitas.jpg" alt="Foto real de Orden con 8 mini donitas calientitas" class="product-img" loading="lazy" width="400" height="300">
+              <span class="card-badge card-badge-pink">&#128293; Salen Calientitas</span>
+              <div class="card-price-pill" id="price-donitas">$50</div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="product-title">Mini Donas</h3>
+                <span class="product-pricing" id="donitas-dynamic-price">$50</span>
+              </div>
+
+              <p class="product-desc">
+                Orden con 8 donitas reci&eacute;n hechas, suaves y esponjosas. Incluyen cobertura y 1 topping a elegir.
+              </p>
+
+              <!-- Opciones / Sabores -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">1</span> SELECCIONA TU COBERTURA:
+                </span>
+                <div class="options-pills" role="radiogroup" aria-label="Opciones de Mini Donas">
+                  <button type="button" class="option-pill active" data-product="donitas" data-type="flavor" data-value="Con Lechera">
+                    Con Lechera
+                  </button>
+                  <button type="button" class="option-pill" data-product="donitas" data-type="flavor" data-value="Con Dulce de leche">
+                    Con Dulce de leche
+                  </button>
+                  <button type="button" class="option-pill" data-product="donitas" data-type="flavor" data-value="Con Mermelada de fresa">
+                    Con Mermelada de fresa
+                  </button>
+                </div>
+              </div>
+
+              <!-- Toppings -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">2</span> Elige 1 topping incluido:
+                </span>
+                <div class="toppings-tags" role="radiogroup" aria-label="Toppings de Mini Donas">
+                  <button type="button" class="topping-tag active" data-product="donitas" data-type="topping" data-value="Coco rallado">
+                    &#129381; Coco rallado
+                  </button>
+                  <button type="button" class="topping-tag" data-product="donitas" data-type="topping" data-value="Chispas de chocolate">
+                    &#127851; Chispas de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="donitas" data-type="topping" data-value="Granillo de capuchino">
+                    &#9749; Granillo de capuchino
+                  </button>
+                  <button type="button" class="topping-tag" data-product="donitas" data-type="topping" data-value="Granillo de chocolate">
+                    &#127851; Granillo de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="donitas" data-type="topping" data-value="Granillo de colores">
+                    &#127752; Granillo de colores
+                  </button>
+                </div>
+                <!-- Casilla interactiva Topping Extra (+$7 pesos) -->
+                <div class="extra-topping-box" id="extra-box-donitas">
+                  <label class="extra-topping-toggle" for="extra-toggle-donitas">
+                    <input type="checkbox" id="extra-toggle-donitas" class="extra-topping-checkbox" data-product="donitas">
+                    <span class="custom-checkbox-ui" aria-hidden="true"></span>
+                    <span class="extra-toggle-label">&#191;Agregar Topping Extra? <strong class="extra-price-tag">(+$7 pesos)</strong></span>
+                  </label>
+
+                  <!-- Selector del segundo topping -->
+                  <div class="extra-toppings-panel" id="extra-panel-donitas" style="display: none;">
+                    <span class="extra-panel-title">Elige tu segundo topping (+ $7):</span>
+                    <div class="extra-tags" role="radiogroup" aria-label="Topping Extra de Mini Donas">
+                      <button type="button" class="extra-topping-btn" data-product="donitas" data-value="Coco rallado">&#129381; Coco rallado</button>
+                      <button type="button" class="extra-topping-btn active" data-product="donitas" data-value="Chispas de chocolate">&#127851; Chispas de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="donitas" data-value="Granillo de capuchino">&#9749; Granillo de capuchino</button>
+                      <button type="button" class="extra-topping-btn" data-product="donitas" data-value="Granillo de chocolate">&#127851; Granillo de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="donitas" data-value="Granillo de colores">&#127752; Granillo de colores</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-action-wrap">
+                <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20Quiero%20pedir%20una%20orden%20de%20Mini%20Donas%20(8%20piezas)%20($50):%0A%E2%80%A2%20Cobertura:%20Con%20Lechera%0A%E2%80%A2%20Topping:%20Coco%20rallado" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="btn btn-whatsapp-card" 
+                   id="btn-order-donitas"
+                   data-base-url="https://wa.me/525561965408">
+                  <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  <span>Pedir Donitas por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: Fresas con Crema -->
+          <article class="product-card product-card-featured" id="card-fresas">
+            <div class="card-media">
+              <img src="fresas.jpg" alt="Foto real de Vaso de Fresas con Crema artesanal Tania Sweets" class="product-img" loading="lazy" width="400" height="300">
+              <span class="card-badge card-badge-special">&#128150; Especialidad de la Casa</span>
+              <div class="card-price-pill" id="price-fresas">$60 - $110</div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="product-title">Fresas con Crema</h3>
+                <span class="product-pricing" id="fresas-dynamic-price">$60</span>
+              </div>
+
+              <p class="product-desc">
+                Nuestra especialidad estrella, ultra cremosas, frescas y deliciosas. Incluyen 1 topping a elegir.
+              </p>
+
+              <!-- Variantes de Tamaño y Precio (Sin mención de onzas) -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">1</span> SELECCIONA EL TAMA&Ntilde;O DE TU VASO:
+                </span>
+                <div class="size-variants" role="radiogroup" aria-label="Tama&ntilde;o de Fresas con Crema">
+                  <button type="button" class="size-btn active" data-product="fresas" data-type="size" data-size="Vaso Chico" data-price="60" aria-label="Vaso Chico - $60">
+                    <span class="size-name">Vaso Chico</span>
+                    <span class="size-cost">$60</span>
+                  </button>
+                  <button type="button" class="size-btn" data-product="fresas" data-type="size" data-size="Vaso Grande" data-price="110" aria-label="Vaso Grande - $110">
+                    <span class="size-name">Vaso Grande</span>
+                    <span class="size-cost">$110</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Toppings -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">2</span> Elige 1 topping incluido:
+                </span>
+                <div class="toppings-tags" role="radiogroup" aria-label="Toppings de Fresas con Crema">
+                  <button type="button" class="topping-tag active" data-product="fresas" data-type="topping" data-value="Coco rallado">
+                    &#129381; Coco rallado
+                  </button>
+                  <button type="button" class="topping-tag" data-product="fresas" data-type="topping" data-value="Chispas de chocolate">
+                    &#127851; Chispas de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="fresas" data-type="topping" data-value="Granillo de capuchino">
+                    &#9749; Granillo de capuchino
+                  </button>
+                  <button type="button" class="topping-tag" data-product="fresas" data-type="topping" data-value="Granillo de chocolate">
+                    &#127851; Granillo de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="fresas" data-type="topping" data-value="Granillo de colores">
+                    &#127752; Granillo de colores
+                  </button>
+                </div>
+                <!-- Casilla interactiva Topping Extra (+$7 pesos) -->
+                <div class="extra-topping-box" id="extra-box-fresas">
+                  <label class="extra-topping-toggle" for="extra-toggle-fresas">
+                    <input type="checkbox" id="extra-toggle-fresas" class="extra-topping-checkbox" data-product="fresas">
+                    <span class="custom-checkbox-ui" aria-hidden="true"></span>
+                    <span class="extra-toggle-label">&#191;Agregar Topping Extra? <strong class="extra-price-tag">(+$7 pesos)</strong></span>
+                  </label>
+
+                  <!-- Selector del segundo topping -->
+                  <div class="extra-toppings-panel" id="extra-panel-fresas" style="display: none;">
+                    <span class="extra-panel-title">Elige tu segundo topping (+ $7):</span>
+                    <div class="extra-tags" role="radiogroup" aria-label="Topping Extra de Fresas con Crema">
+                      <button type="button" class="extra-topping-btn" data-product="fresas" data-value="Coco rallado">&#129381; Coco rallado</button>
+                      <button type="button" class="extra-topping-btn active" data-product="fresas" data-value="Chispas de chocolate">&#127851; Chispas de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="fresas" data-value="Granillo de capuchino">&#9749; Granillo de capuchino</button>
+                      <button type="button" class="extra-topping-btn" data-product="fresas" data-value="Granillo de chocolate">&#127851; Granillo de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="fresas" data-value="Granillo de colores">&#127752; Granillo de colores</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-action-wrap">
+                <a href="https://wa.me/525561965408?text=%C2%A1Hola%20Tania%20Sweets!%20Quiero%20unas%20Fresas%20con%20Crema%20en%20Vaso%20Chico%20($60)%20con%20Topping%20Incluido%20de:%20Coco%20rallado" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="btn btn-whatsapp-card btn-whatsapp-pulse" 
+                   id="btn-order-fresas"
+                   data-base-url="https://wa.me/525561965408">
+                  <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  <span>Pedir Fresas por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4: Duraznos con Crema -->
+          <article class="product-card" id="card-duraznos">
+            <div class="card-media">
+              <img src="duraznos.jpg" alt="Foto real de Vaso de Duraznos con Crema artesanal Tania Sweets" class="product-img" loading="lazy" width="400" height="300">
+              <span class="card-badge card-badge-gold">&#10024; Nuevo Antojo</span>
+              <div class="card-price-pill" id="price-duraznos">$65</div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-header-row">
+                <h3 class="product-title">Duraznos con Crema</h3>
+                <span class="product-pricing" id="duraznos-dynamic-price">$65</span>
+              </div>
+
+              <p class="product-desc">
+                Dulces y jugosos trozos de durazno combinados con nuestra crema especial de la casa. &iexcl;Una explosi&oacute;n de sabor!
+              </p>
+
+              <!-- Tamaño de vaso / Opción única fija -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">1</span> SELECCIONA EL TAMA&Ntilde;O DE TU VASO:
+                </span>
+                <div class="size-variants single-option" role="radiogroup" aria-label="Tama&ntilde;o de Duraznos con Crema">
+                  <button type="button" class="size-btn size-btn-single active" data-product="duraznos" data-type="size" data-size="Vaso Est&aacute;ndar" data-price="65" aria-label="Vaso Est&aacute;ndar - $65">
+                    <span class="size-name">Vaso Est&aacute;ndar</span>
+                    <span class="size-cost">$65</span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Toppings Incluidos -->
+              <div class="product-group">
+                <span class="group-title">
+                  <span class="step-num">2</span> ELIGE 1 TOPPING INCLUIDO:
+                </span>
+                <div class="toppings-tags" role="radiogroup" aria-label="Toppings de Duraznos con Crema">
+                  <button type="button" class="topping-tag active" data-product="duraznos" data-type="topping" data-value="Coco rallado">
+                    &#129381; Coco rallado
+                  </button>
+                  <button type="button" class="topping-tag" data-product="duraznos" data-type="topping" data-value="Chispas de chocolate">
+                    &#127851; Chispas de chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="duraznos" data-type="topping" data-value="Granillo capuchino">
+                    &#9749; Granillo capuchino
+                  </button>
+                  <button type="button" class="topping-tag" data-product="duraznos" data-type="topping" data-value="Granillo chocolate">
+                    &#127851; Granillo chocolate
+                  </button>
+                  <button type="button" class="topping-tag" data-product="duraznos" data-type="topping" data-value="Granillo colores">
+                    &#127752; Granillo colores
+                  </button>
+                </div>
+                <!-- Casilla interactiva Topping Extra (+$7 pesos) -->
+                <div class="extra-topping-box" id="extra-box-duraznos">
+                  <label class="extra-topping-toggle" for="extra-toggle-duraznos">
+                    <input type="checkbox" id="extra-toggle-duraznos" class="extra-topping-checkbox" data-product="duraznos">
+                    <span class="custom-checkbox-ui" aria-hidden="true"></span>
+                    <span class="extra-toggle-label">&#191;Agregar Topping Extra? <strong class="extra-price-tag">(+$7 pesos)</strong></span>
+                  </label>
+
+                  <!-- Selector del segundo topping -->
+                  <div class="extra-toppings-panel" id="extra-panel-duraznos" style="display: none;">
+                    <span class="extra-panel-title">Elige tu segundo topping (+ $7):</span>
+                    <div class="extra-tags" role="radiogroup" aria-label="Topping Extra de Duraznos con Crema">
+                      <button type="button" class="extra-topping-btn" data-product="duraznos" data-value="Coco rallado">&#129381; Coco rallado</button>
+                      <button type="button" class="extra-topping-btn active" data-product="duraznos" data-value="Chispas de chocolate">&#127851; Chispas de chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="duraznos" data-value="Granillo capuchino">&#9749; Granillo capuchino</button>
+                      <button type="button" class="extra-topping-btn" data-product="duraznos" data-value="Granillo chocolate">&#127851; Granillo chocolate</button>
+                      <button type="button" class="extra-topping-btn" data-product="duraznos" data-value="Granillo colores">&#127752; Granillo colores</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-action-wrap">
+                <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20Quiero%20pedir%20Duraznos%20con%20Crema:%0A%E2%80%A2%20Tama%C3%B1o:%20Vaso%20Est%C3%A1ndar%20-%20$65%0A%E2%80%A2%20Topping:%20Coco%20rallado" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="btn btn-whatsapp-card" 
+                   id="btn-order-duraznos"
+                   data-base-url="https://wa.me/525561965408">
+                  <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  <span>Pedir Duraznos por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Zonas de Entrega (Info Box) -->
+    <section class="delivery-section" id="delivery-info">
+      <div class="container">
+        <div class="delivery-card">
+          <div class="delivery-icon-wrapper" aria-hidden="true">
+            <svg class="map-pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          
+          <div class="delivery-content">
+            <div class="delivery-badge-pill">Zona de Cobertura</div>
+            <h2 class="delivery-title">Reparto Local</h2>
+            <p class="delivery-text">
+              Consulta si tu colonia est&aacute; en nuestra zona de entrega al enviar tu mensaje por WhatsApp. &iexcl;Hacemos entregas r&aacute;pidas y seguras!
+            </p>
+            <div class="delivery-perks">
+              <div class="perk-pill">
+                <span class="perk-icon">&#9889;</span>
+                <span>Entrega r&aacute;pida</span>
+              </div>
+              <div class="perk-pill">
+                <span class="perk-icon">&#128230;</span>
+                <span>Empaque seguro para postres</span>
+              </div>
+              <div class="perk-pill">
+                <span class="perk-icon">&#128179;</span>
+                <span>Efectivo o Transferencia</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="delivery-action">
+            <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20%C2%BFHacen%20entregas%20en%20mi%20colonia%3F%20Mi%20ubicaci%C3%B3n%20es:" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn btn-outline-delivery" 
+               id="delivery-check-btn">
+              <svg class="whatsapp-mini" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              <span>Consultar mi Colonia</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to order steps -->
+    <section class="steps-section" id="como-pedir">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-tag">F&Aacute;CIL Y R&Aacute;PIDO</span>
+          <h2 class="section-title">&iquest;C&oacute;mo hacer tu pedido?</h2>
+          <p class="section-subtitle">Sin registros pesados ni aplicaciones lentas. En 3 sencillos pasos tienes tu postre en camino.</p>
+        </header>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-badge">1</div>
+            <div class="step-icon">&#128221;</div>
+            <h3 class="step-title">Elige tu Antojo</h3>
+            <p class="step-desc">Selecciona tus crepas, donitas o fresas con tu combinaci&oacute;n y topping favorito.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">2</div>
+            <div class="step-icon">&#128242;</div>
+            <h3 class="step-title">Env&iacute;a por WhatsApp</h3>
+            <p class="step-desc">Toca el bot&oacute;n del producto y se abrir&aacute; tu chat con el pedido ya redactado.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-badge">3</div>
+            <div class="step-icon">&#128757;</div>
+            <h3 class="step-title">Recibe y Disfruta</h3>
+            <p class="step-desc">Confirma tu direcci&oacute;n, preparamos tu orden al momento y la llevamos a tu puerta.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo-row">
+          <img src="logo.png" alt="Tania Sweets" class="footer-logo" width="56" height="56">
+          <div>
+            <h3 class="footer-brand-title">Tania Sweets</h3>
+            <p class="footer-tagline">Fresas, Mini Donas &amp; M&aacute;s</p>
+          </div>
+        </div>
+        <p class="footer-bio">
+          Elaboramos los mejores antojos dulces locales. Calidad garantizada, frescura inigualable y pasi&oacute;n en cada bocado.
+        </p>
+      </div>
+
+      <div class="footer-contact">
+        <h4 class="footer-heading">Contacto &amp; Pedidos</h4>
+        <p class="footer-phone-desc">L&iacute;nea directa para ordenar por WhatsApp:</p>
+        <a href="https://wa.me/525561965408" target="_blank" rel="noopener noreferrer" class="footer-phone-link" id="footer-whatsapp-link">
+          <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          <span>55 6196 5408</span>
+        </a>
+        <div class="footer-badges">
+          <span class="badge-mini">&#9200; Lun a Dom (Horario de servicio)</span>
+          <span class="badge-mini">&#128757; Servicio a domicilio local</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; 2026 Tania Sweets. Todos los derechos reservados.</p>
+        <p class="footer-credits">Hecho con &#10084;&#65039; y dulzura para nuestros clientes</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Mobile WhatsApp Quick Button -->
+  <aside class="floating-whatsapp-container" aria-label="Bot&oacute;n flotante de WhatsApp">
+    <a href="https://wa.me/525561965408?text=Hola%20Tania%20Sweets!%20%C2%A1Quiero%20hacer%20un%20pedido%20de%20antojos!" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="floating-whatsapp-btn" 
+       id="floating-whatsapp-btn"
+       aria-label="Abrir WhatsApp para pedir postres">
+      <span class="floating-tooltip">&iquest;Antojo? &iexcl;Pide aqu&iacute;!</span>
+      <span class="floating-pulse" aria-hidden="true"></span>
+      <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" width="30" height="30" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
